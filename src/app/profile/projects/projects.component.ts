@@ -21,13 +21,13 @@ export class ProjectsComponent implements OnInit {
 
     {
       id: 2,
-      title: 'mino sockei io tchat',
+      title: 'mini socket.io tchat',
       desc: '',
-      livedemo: 'https://sockettchat.herokuapp.com/',
+      livedemo: 'https://douniadbteam.herokuapp.com/',
       githurl: 'https://github.com/mehulk05/Blogapp-using-MERN',
     
-      imgUrl: 'assets/images/z26.png',
-      tech: 'React, Node, MongoDB, Express'
+      imgUrl: 'assets/images/tchat.png',
+      tech: ' Express, Bootstrap'
     },
 
 
