@@ -2,10 +2,10 @@ const express = require('express');
 
 const app = express();
 
-app.use(express.static('./src//app/app.component.html'));
+app.use(express.static('./src//app/'));
 
 app.get('/*', function (req, res) {
-  res.sendFile('app.component.html', { root: 'src//app/app.component.html' }
+  res.sendFile('app.component.html', { root: 'src/app/' }
   );
 });
 
