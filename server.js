@@ -2,10 +2,10 @@ const express = require('express');
 
 const app = express();
 
-app.use(express.static('./src//app/'));
+app.use(express.static('./dist/personal-portfoli-angular'));
 
 app.get('/*', function (req, res) {
-  res.sendFile('app.component.html', { root: 'src/app/' }
+  res.sendFile('index.html', { root: './dist/personal-portfoli-angular' }
   );
 });
 
