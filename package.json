@@ -9,7 +9,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start:prod": "node server.js"
-    
   },
   "private": true,
   "dependencies": {
@@ -23,7 +22,9 @@
     "@angular/router": "~8.2.4",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "ng-recaptcha": "^8.0.0",
     "ng-snotify": "^4.3.1",
+    "ng2-google-recaptcha": "^5.0.0",
     "ngx-pagination": "^5.0.0",
     "ngx-spinner": "^8.0.3",
     "nodemailer": "^6.6.0",

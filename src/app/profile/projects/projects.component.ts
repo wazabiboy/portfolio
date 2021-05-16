@@ -30,7 +30,26 @@ export class ProjectsComponent implements OnInit {
       tech: ' Express, Bootstrap'
     },
 
-
+    {
+      id: 3,
+      title: 'Web application in symfony',
+      desc: '',
+      livedemo: 'https://www.newlifegames.fr/',
+      githurl: 'https://github.com/mehulk05/MyShop',
+      mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
+      imgUrl: 'assets/images/nlgProject.png',
+      tech: 'Symfony ,Mysql'
+    },
+    {
+      id: 4,
+      title: 'Web application in symfony',
+      desc: '',
+      livedemo: 'https://www.newlifegames.fr/',
+      githurl: 'https://github.com/mehulk05/MyShop',
+      mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
+      imgUrl: 'assets/images/nlgProject.png',
+      tech: 'Symfony ,Mysql'
+    },
   
 
   ]
@@ -38,7 +57,7 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.config = {
-      itemsPerPage: 6,
+      itemsPerPage: 3,
       currentPage: 1,
       totalItems: this.projects.length
     };
