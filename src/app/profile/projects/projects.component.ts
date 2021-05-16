@@ -34,22 +34,13 @@ export class ProjectsComponent implements OnInit {
       id: 3,
       title: 'Web application in symfony',
       desc: '',
-      livedemo: 'https://www.newlifegames.fr/',
-      githurl: 'https://github.com/mehulk05/MyShop',
-      mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: 'assets/images/nlgProject.png',
-      tech: 'Symfony ,Mysql'
+      livedemo: 'https://wazabiboy.github.io/vitrine/index.html',
+      githurl: 'https://wazabiboy.github.io/vitrine/index.html#',
+      mediumlink: 'https://wazabiboy.github.io/vitrine/index.html#',
+      imgUrl: 'assets/images/vitrine.png',
+      tech: 'html, css, javascript'
     },
-    {
-      id: 4,
-      title: 'Web application in symfony',
-      desc: '',
-      livedemo: 'https://www.newlifegames.fr/',
-      githurl: 'https://github.com/mehulk05/MyShop',
-      mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: 'assets/images/nlgProject.png',
-      tech: 'Symfony ,Mysql'
-    },
+
   
 
   ]
