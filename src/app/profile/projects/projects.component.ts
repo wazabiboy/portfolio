@@ -32,7 +32,7 @@ export class ProjectsComponent implements OnInit {
 
     {
       id: 3,
-      title: 'Web application in symfony',
+      title: 'Frentend Web application ',
       desc: '',
       livedemo: 'https://wazabiboy.github.io/vitrine/index.html',
       githurl: 'https://wazabiboy.github.io/vitrine/index.html#',
