@@ -6,6 +6,8 @@ import { RouterModule, Routes, ExtraOptions } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileModule } from './profile/profile.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 const routes: Routes = [
   {
@@ -27,7 +29,8 @@ const config: ExtraOptions = {
     
     RouterModule.forRoot(routes, config),
     ProfileModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
