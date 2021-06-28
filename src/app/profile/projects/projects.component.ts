@@ -42,13 +42,22 @@ export class ProjectsComponent implements OnInit {
     },
 
   
-
+    {
+      id: 4,
+      title: 'Frentend Web application ',
+      desc: '',
+      livedemo: 'https://quizziuq.herokuapp.com/',
+      githurl: 'https://wazabiboy.github.io/vitrine/index.html#',
+      mediumlink: 'https://wazabiboy.github.io/vitrine/index.html#',
+      imgUrl: 'assets/images/vitrine.png',
+      tech: 'html, css, javascript'
+    },
   ]
   constructor() { }
 
   ngOnInit() {
     this.config = {
-      itemsPerPage: 3,
+      itemsPerPage: 2,
       currentPage: 1,
       totalItems: this.projects.length
     };
