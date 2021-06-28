@@ -57,7 +57,7 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.config = {
-      itemsPerPage: 2,
+      itemsPerPage: 3,
       currentPage: 1,
       totalItems: this.projects.length
     };
