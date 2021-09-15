@@ -9,6 +9,20 @@ export class ProjectsComponent implements OnInit {
   config: any;
   projects = [
     {
+      id: 8,
+      title: 'Pau Charity',
+      desc: '',
+      livedemo: 'https://paucharity.herokuapp.com/',
+      githurl: ' ',
+      mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
+      imgUrl: 'assets/images/Pau.png',
+      tech: 'Symfony ,Mysql'
+    },
+    
+    
+    
+    
+    {
       id: 1,
       title: 'Web application in symfony',
       desc: '',
